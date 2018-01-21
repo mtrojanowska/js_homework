@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+function objectToArray(obj) {
+  var key = Object.keys(obj);
+  var value = Object.values(obj);
+
+  array = [];
+
+    for (i=0; i<key.length; i++) {
+    array.push(key[i],value[i]);  
+    };
+  return array
+};
+
+document.write(objectToArray({a:1, b:2}))
+
+
+</script>
+</body>
+</html>

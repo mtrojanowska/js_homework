@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+
+function capitalize(string){  
+  var array = string.split(" ");  
+  var new_array = [];
+  for (i = 0; i < array.length; i++)  {
+    element = array[i];      
+    new_array += element[0].toUpperCase().concat(element.substr(1, element.length))+" "
+   };
+return new_array
+};
+
+document.write(capitalize("myjcie się, dziewczyny bo nie znacie dnia ani godziny"));
+
+</script>
+</body>
+</html>
+
+
